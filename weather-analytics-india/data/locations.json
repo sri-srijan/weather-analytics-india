@@ -1,0 +1,32 @@
+[
+  {
+    "state": "Uttar Pradesh",
+    "capital": "Lucknow",
+    "latitude": 26.8467,
+    "longitude": 80.9462
+  },
+  {
+    "state": "Rajasthan",
+    "capital": "Jaipur",
+    "latitude": 26.9124,
+    "longitude": 75.7873
+  },
+  {
+    "state": "Maharashtra",
+    "capital": "Mumbai",
+    "latitude": 19.0760,
+    "longitude": 72.8777
+  },
+  {
+    "state": "Karnataka",
+    "capital": "Bengaluru",
+    "latitude": 12.9716,
+    "longitude": 77.5946
+  },
+  {
+    "state": "Tamil Nadu",
+    "capital": "Chennai",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  }
+]

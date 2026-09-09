@@ -1,0 +1,32 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI',Calibri,sans-serif; background:#f4f1eb; color:#2d2a24;
+         padding:32px 24px; max-width:960px; margin:0 auto; }
+  .report-header { background:linear-gradient(135deg,#2d2a24 0%,#3a3630 100%);
+    color:#f8f4ed; padding:36px 32px; border-radius:12px; margin-bottom:28px; }
+  .report-header h1 { font-size:28px; font-weight:700; margin-bottom:6px; }
+  .report-header p  { font-size:14px; color:#c4cebc; }
+  .summary-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:16px; margin-bottom:28px; }
+  .card { background:#fff; border-radius:10px; padding:20px;
+    box-shadow:0 2px 8px rgba(45,42,36,.08); border-left:4px solid #8e9a7c; }
+  .card.accent { border-left-color:#b26b4a; }
+  .card.warm   { border-left-color:#d4956f; }
+  .card.dark   { border-left-color:#2d2a24; }
+  .card .label  { font-size:12px; text-transform:uppercase; letter-spacing:.5px;
+                  color:#6e665c; margin-bottom:6px; }
+  .card .value  { font-size:28px; font-weight:700; color:#2d2a24; }
+  .card .detail { font-size:13px; color:#6e665c; margin-top:4px; }
+  section { background:#fff; border-radius:10px; padding:24px; margin-bottom:24px;
+            box-shadow:0 2px 8px rgba(45,42,36,.08); }
+  section h2 { font-size:18px; font-weight:600; color:#2d2a24; margin-bottom:16px;
+               padding-bottom:8px; border-bottom:2px solid #e0d6c7; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  thead th { background:#2d2a24; color:#f8f4ed; padding:10px 14px;
+             text-align:left; font-weight:600; font-size:13px; }
+  thead th:first-child { border-radius:6px 0 0 0; }
+  thead th:last-child  { border-radius:0 6px 0 0; }
+  tbody td { padding:9px 14px; border-bottom:1px solid #e0d6c7; }
+  tbody tr:nth-child(even) { background:#faf6f0; }
+  tbody tr:hover { background:#ede8dc; }
+  .footer { text-align:center; font-size:12px; color:#6e665c;
+            margin-top:32px; padding-top:16px; border-top:1px solid #e0d6c7; }
